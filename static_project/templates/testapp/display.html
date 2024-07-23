@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <title>Static File Demo</title>
+</head>
+<body>
+  <h1>The Available Flowers are </h1>
+  <ul>
+    <li>{{f1}}</li>
+    <li>{{f2}}</li>
+    <li>{{f3}}</li>
+  </ul>
+  <img src="{% static 'images/flower_1.jpg'  %}" alt="flower_1">
+</body>
+</html>
